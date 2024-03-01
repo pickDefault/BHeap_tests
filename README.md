@@ -1,5 +1,5 @@
 # To run
-To execute from terminal, copy BinomialHeap.java to the folder Tests.java and PrintHeap.java, and in git bash (Or just terminal for macOS/linux)
+To execute from terminal, copy BinomialHeap.java to the folder containing Tests.java and PrintHeap.java, and in git bash (Or just terminal for macOS/linux)
 ```bash
 javac Tests.java PrintHeap.java BinomialHeap.java && java Tests
 ```
