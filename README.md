@@ -13,7 +13,7 @@ Inside your java program:
 PrintHeap.printHeap(heap, true)
 ```
 
-Where `heap` is the reference to a initialized BinomialHeap and true/false for whether to use pretty unicode arrows
+Where `heap` is the reference to an initialized BinomialHeap and true/false for whether to use pretty unicode arrows
 
 # To contribute
 
