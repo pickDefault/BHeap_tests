@@ -9,9 +9,9 @@ public class PrintHeap {
 			arrowEndOfLayer = "\u21b6\n";
 			arrowStartOfLayer = "\u21ba\n";
 		} else {
-			arrowUp = "^";
-			arrowEndOfLayer = "~";
-			arrowStartOfLayer = "*";
+			arrowUp = "^\n";
+			arrowEndOfLayer = "~\n";
+			arrowStartOfLayer = "*\n";
 		}
 		if (heap.empty()) {
 			System.out.println("Heap is empty");
