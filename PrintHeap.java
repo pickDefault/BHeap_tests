@@ -1,3 +1,7 @@
+package Utils;
+
+import BinomialHeap.BinomialHeap;
+
 public class PrintHeap {
 	static String arrowUp;
 	static String arrowEndOfLayer;
