@@ -1,5 +1,5 @@
 # To run
-To execute from terminal, copy BinomialHeap.java to the folder Tests.java and PrintHeap.java, and in git bash (Or just terminal for macOS/linux)
+To execute from terminal, copy BinomialHeap.java to the folder containing Tests.java and PrintHeap.java, and in git bash (Or just terminal for macOS/linux)
 ```bash
 javac Tests.java PrintHeap.java BinomialHeap.java && java Tests
 ```
@@ -13,7 +13,7 @@ Inside your java program:
 PrintHeap.printHeap(heap, true)
 ```
 
-Where `heap` is the reference to a initialized BinomialHeap and true/false for whether to use pretty unicode arrows
+Where `heap` is the reference to an initialized BinomialHeap and true/false for whether to use pretty unicode arrows
 
 # To contribute
 
