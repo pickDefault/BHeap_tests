@@ -32,7 +32,7 @@ public class PrintHeap {
 			printTree(node.next, depth, initialRoot); // Print sibling recursively until we reach the initial root
 			printAtDepth(depth, arrowUp); // arrow up pointing to next, if next is not circular
 		} else if ( node.next == initialRoot ) {
-		   printAtDepth(depth, arrowEndOfLayer);	// arrow looping back
+			printAtDepth(depth, arrowEndOfLayer);	// arrow looping back
 												  	// indicating we've reached end
 												  	// of next nodes in layer
 		}
@@ -44,7 +44,7 @@ public class PrintHeap {
 		}
 
 		if (node.child != null) {
-			printTree(node.child, depth + 1, node.child); // Print child recursively
+			printTree(node.child.next, depth + 1, node.child.next); // Print child recursively
 		}
 
 	}
